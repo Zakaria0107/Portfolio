@@ -14,7 +14,7 @@ const Home = () => {
           I'm a Web Developer.
         </h2>
         <p className='text-white py-4 max-w-[700px]'>
-        My first priority is to satisfy my clients,  i will ensure your website will be good looking, user friendly and fully responsive. So feel free to contact me .
+        My first priority is to satisfy my clients, I will ensure your website will be good looking, user friendly and fully responsive. So feel free to contact me .
         </p>
         <div>
           <Link to='works' smooth={true} duration={500}>
