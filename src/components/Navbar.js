@@ -87,7 +87,7 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
-        <li className='flex justify-between items-center space-x-[30px] absolute bottom-6'>
+        <li className='py-6 flex justify-between items-center space-x-[30px]'>
           <a href='https://www.linkedin.com/in/zakaria-bijaddigune-67373b231/' target='_blank'><FaLinkedin size={30} /></a>
           <a href='https://github.com/Zakaria0107' target="_blank"><FaGithub size={30} /></a>
           <a href='https://www.instagram.com/zakaria_bijaddigune/' target="_blank"><FaInstagram size={30} /></a>

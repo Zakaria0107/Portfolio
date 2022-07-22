@@ -7,6 +7,7 @@ import Tailwind from '../assets/tailwind.png';
 import Php from '../assets/php.png';
 import Mysql from '../assets/mysql.png';
 import Java from '../assets/java.png';
+import Sass from '../assets/sass.png';
 import {FaLongArrowAltRight}from 'react-icons/fa';
 const Skills = () => {
   return (
@@ -29,6 +30,10 @@ const Skills = () => {
                 <div className='flex items-center justify-center flex-col space-y-4'>
                     <img src={JavaScript} className="w-[50px] sm:w-[80px]"/>
                     <p className='text-lg font-semibold'>JavaScript</p>
+                </div>
+                <div className='flex items-center justify-center flex-col space-y-4'>
+                    <img src={Sass} className="w-[50px] sm:w-[80px]"/>
+                    <p className='text-lg font-semibold'>SASS</p>
                 </div>
                 <div className='flex items-center justify-center flex-col space-y-4'>
                     <img src={Tailwind} className="w-[50px] sm:w-[80px]"/>
